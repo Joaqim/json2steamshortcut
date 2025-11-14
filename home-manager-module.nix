@@ -68,7 +68,7 @@ in
       shortcutsPath = mkOption {
         type = types.str;
         internal = true;
-        default = "${cfg.steamHomeDir}/${cfg.userConfigDir}/shortcuts.vdf";
+        default = "${cfg.userConfigDir}/shortcuts.vdf";
       };
 
       # NOTE: This configuration is formatted for use with json2steamshortcut
